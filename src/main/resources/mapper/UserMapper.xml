@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.blog.dao.UserDao">
+    <insert id="insertUser" parameterType="User" useGeneratedKeys="true" >
+        INSERT INTO user(email, password, phone, name, state, admin, img_url,description, address, update_time, create_time)
+        VALUES (#{email}, #{password}, #{phone}, #{name}, #{state}, #{admin}, #{imgUrl}, #{description}, #{address}, #{updateTime}, #{createTime})
+    </insert>
+
+    <select id="selectUserByUsername" parameterType="String" resultType="User">
+        SELECT * FROM user WHERE email=#{username}
+    </select>
+
+
+<!--    <update id="updateUser" parameterType="User" useGeneratedKeys="true">-->
+<!--        UPDATE user SET-->
+<!--          password=#{password},-->
+<!--          update_time=#{updateTime}-->
+<!--        WHERE-->
+<!--          id=#{id}-->
+<!--    </update>-->
+
+    <select id="selectAdmin" resultType="User">
+        SELECT id, email, phone, name, state, admin, img_url, description, address FROM user WHERE admin = 1
+    </select>
+
+    <update id="updatePassword">
+        UPDATE user SET
+          password=#{password},
+          update_time=#{updateTime}
+        WHERE
+          email=#{email}
+    </update>
+
+    <update id="updateState">
+        UPDATE user SET
+          state=#{state},
+          update_time=#{updateTime}
+        WHERE
+          email=#{mail}
+    </update>
+
+    <select id="selectUserByEmail" parameterType="String" resultType="User">
+        select * from user where email=#{email}
+    </select>
+
+    <update id="updateUser" parameterType="User" useGeneratedKeys="true">
+        UPDATE user SET
+          email=#{email}, password=#{password}, phone=#{phone}, name=#{name},
+          state=#{state}, admin=#{admin}, img_url=#{imgUrl}, description=#{description}, address=#{address}
+        WHERE
+          id=#{id}
+    </update>
+
+
+    <select id="selectAllUsers" resultType="User">
+        SELECT id, email, phone, name, state, admin, img_url, description, address, create_time, update_time FROM user
+    </select>
+
+    <select id="selectUserById" parameterType="Long" resultType="User">
+        SELECT * FROM user WHERE id=#{id}
+    </select>
+
+    <delete id="deleteUserById" parameterType="Long">
+        delete from user where id = #{id}
+    </delete>
+
+
+</mapper>

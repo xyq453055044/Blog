@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.blog.dao.ResourceDao">
+
+    <select id="selectAllResource" resultMap="resourceParentResultMap">
+        SELECT * FROM res_parent;
+    </select>
+
+    <resultMap id="resourceParentResultMap" type="ResourceParent">
+        <id property="parentId" column="parent_id" />
+        <result property="parentName" column="parent_name" />
+        <collection property="resourceChildren" javaType="ArrayList" column="parent_id"
+                    ofType="ResourceChild" select="com.blog.dao.ResourceDao.resourceChildByChildId" fetchType="lazy">
+            <id property="childId" column="child_id" />
+            <result property="childName" column="child_name" />
+            <result property="introduction" column="introduction" />
+            <result property="url" column="url" />
+            <result property="pass" column="pass" />
+            <result property="createTime" column="create_time" />
+        </collection>
+    </resultMap>
+
+    <select id="resourceChildByChildId" resultMap="childResultMap">
+        SELECT * FROM res_parent rp, res_child rc WHERE rp.parent_id=rc.fk_parent_id;
+    </select>
+    <resultMap id="childResultMap" type="ResourceChild">
+        <id property="childId" column="child_id"/>
+        <result property="childName" column="child_name"/>
+        <result property="introduction" column="introduction"/>
+        <result property="url" column="url"/>
+        <result property="pass" column="pass"/>
+        <result property="createTime" column="create_time"/>
+    </resultMap>
+
+
+    <select id="selectSecondLevels" resultType="POSecondLevel">
+        SELECT fk_parent_id, child_name,count(1) AS count FROM res_child GROUP BY fk_parent_id, child_name;
+    </select>
+
+    <select id="selectResourceChild" resultType="ResourceChild">
+        SELECT child_id, child_name, introduction, url, pass, create_time FROM res_child WHERE child_name=#{name};
+    </select>
+
+    <insert id="insertResourceParent" parameterType="ResourceParent" useGeneratedKeys="true"
+            keyProperty="parentId" keyColumn="parent_id">
+        INSERT INTO res_parent (parent_name) VALUES (#{parentName})
+    </insert>
+
+    <insert id="insertResourceChild" parameterType="ResourceChild">
+        INSERT INTO res_child (child_name, introduction, url, pass, create_time, fk_parent_id)
+        VALUES (#{childName}, #{introduction}, #{url}, #{pass}, #{createTime}, #{fkParentId})
+    </insert>
+
+    <select id="selectResourceParentByName" parameterType="String" resultType="ResourceParent">
+        SELECT parent_id, parent_name FROM res_parent WHERE parent_name=#{resFirstLevel}
+    </select>
+
+    <delete id="deleteResourceChildById" parameterType="Integer">
+        DELETE FROM res_child WHERE child_id=#{childResId}
+    </delete>
+</mapper>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.blog.dao.CommentDao">
+    <select id="selectAllCommentsByAId" resultType="Comment" parameterType="Long">
+        select c_id, a_id, by_id, content, create_time
+        FROM comment WHERE a_id=#{aId}
+    </select>
+
+    <select id="selectChildCommentsByCId" parameterType="Long" resultType="ChildComment">
+        SELECT child_id, c_id, by_id, content, create_time FROM child_comment WHERE c_id=#{cId}
+    </select>
+
+
+    <insert id="insertComment" parameterType="Comment">
+        INSERT INTO comment(a_id, by_id, content, create_time) VALUES(#{aId}, #{byId}, #{content}, #{createTime})
+    </insert>
+
+    <insert id="insertChildComment" parameterType="ChildComment">
+        INSERT INTO child_comment(c_id, by_id, content, create_time) VALUES(#{cId}, #{byId}, #{content}, #{createTime})
+    </insert>
+
+</mapper>

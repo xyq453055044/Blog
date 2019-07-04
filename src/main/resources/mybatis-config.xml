@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+    <!-- 开启驼峰匹配 -->
+    <settings>
+        <!-- 开启驼峰命名转换 -->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+        <!-- 使用JDBC的getGeneratedKeys 获取数据库自增主键值 -->
+        <setting name="useGeneratedKeys" value="true"/>
+        <!--要使延迟加载生效必须配置下面两个属性-->
+        <setting name="lazyLoadingEnabled" value="true"/>
+        <setting name="aggressiveLazyLoading" value="false"/>
+    </settings>
+    <!-- 别名 -->
+    <typeAliases>
+        <!--默认别名为：javabean 的首字母小写的非限定类名来作为它的别名-->
+        <package name="com.blog.model"/>
+    </typeAliases>
+    <plugins>
+        <!-- 自定义分页插件 -->
+        <plugin interceptor="com.github.pagehelper.PageInterceptor">
+            <!--<property name="offsetAsPageNum" value="true"/>
+            <property name="rowBoundsWithCount" value="true"/>
+            <property name="reasonable" value="true"/>-->
+            <property name="helperDialect" value="mysql"/>
+        </plugin>
+    </plugins>
+</configuration>
