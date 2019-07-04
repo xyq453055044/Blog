@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.blog.dao.AboutBlogDao">
+    <select id="selectAboutBlog" resultType="AboutBlog">
+        SELECT ab_blog_id, ab_blog_intro, ab_blog_modify_time FROM ab_blog WHERE ab_blog_id=1;
+    </select>
+
+    <select id="selectAboutBlogVersions" resultType="AboutBlogVersion">
+        SELECT blog_ver_id, blog_ver_title, blog_ver_content, blog_ver_time FROM blog_version;
+    </select>
+
+    <select id="selectAboutBlogById" resultType="AboutBlog" >
+        SELECT ab_blog_id, ab_blog_intro, ab_blog_modify_time FROM ab_blog WHERE ab_blog_id=#{blogIntroId};
+    </select>
+
+    <update id="updateAboutBlog" parameterType="AboutBlog">
+        UPDATE ab_blog SET
+          ab_blog_intro=#{abBlogIntro}, ab_blog_modify_time=#{abBlogModifyTime}
+        WHERE
+          ab_blog_id=#{abBlogId}
+    </update>
+
+
+</mapper>

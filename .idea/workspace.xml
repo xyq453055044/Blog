@@ -1,0 +1,1753 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="myblog:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="72ad1681-bd88-4756-b66a-d33f7f3b51ed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/run.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/run.log.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/COIPIB/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/myblog.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/base/CodeEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/common/CommonResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/controller/AboutController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/controller/ActiveController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/controller/AdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/controller/ArticleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/controller/BaseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/controller/CaptchaController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/controller/DetailController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/controller/FriendLinkController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/controller/HomeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/controller/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/controller/ModifyController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/controller/PageController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/controller/RegisterController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/controller/ResourceController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/controller/SetPasswordController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/controller/WriteController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/dao/AboutBlogDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/dao/ArticleDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/dao/CommentDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/dao/FriendLinkDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/dao/ResourceDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/mail/MyAuthenticator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/mail/SendEmail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/model/AboutBlog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/model/AboutBlogVersion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/model/Article.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/model/ChildComment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/model/Comment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/model/FriendLink.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/model/POCategory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/model/POSecondLevel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/model/POTime.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/model/ResourceChild.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/model/ResourceParent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/model/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/service/AboutBlogService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/service/AboutService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/service/ArticleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/service/CaptchaService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/service/CommentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/service/FriendLinkService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/service/LoginService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/service/RegisterService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/service/ResourceService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/service/SetPasswordService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/service/impl/AboutBlogServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/service/impl/AboutServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/service/impl/ArticleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/service/impl/CaptchaServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/service/impl/CommentServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/service/impl/FriendLinkServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/service/impl/LoginServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/service/impl/RegisterServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/service/impl/ResourceServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/service/impl/SetPasswordServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/blog/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/AboutBlogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/ArticleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/CommentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/FriendLinkMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/ResMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/about.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/activeFail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/activeSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/admin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/article.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/META-INF/myblog.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/base/CodeEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/common/CommonResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/controller/AboutController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/controller/ActiveController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/controller/AdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/controller/ArticleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/controller/BaseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/controller/CaptchaController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/controller/DetailController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/controller/FriendLinkController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/controller/HomeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/controller/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/controller/ModifyController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/controller/PageController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/controller/RegisterController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/controller/ResourceController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/controller/SetPasswordController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/controller/WriteController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/dao/AboutBlogDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/dao/ArticleDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/dao/CommentDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/dao/FriendLinkDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/dao/ResourceDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/mail/MyAuthenticator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/mail/SendEmail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/model/AboutBlog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/model/AboutBlogVersion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/model/Article.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/model/ChildComment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/model/Comment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/model/FriendLink.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/model/POCategory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/model/POSecondLevel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/model/POTime.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/model/ResourceChild.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/model/ResourceParent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/model/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/service/AboutBlogService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/service/AboutService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/service/ArticleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/service/CaptchaService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/service/CommentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/service/FriendLinkService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/service/LoginService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/service/RegisterService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/service/ResourceService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/service/SetPasswordService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/service/impl/AboutBlogServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/service/impl/AboutServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/service/impl/ArticleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/service/impl/CaptchaServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/service/impl/CommentServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/service/impl/FriendLinkServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/service/impl/LoginServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/service/impl/RegisterServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/service/impl/ResourceServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/service/impl/SetPasswordServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/com/blog/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/mapper/AboutBlogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/mapper/ArticleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/mapper/CommentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/mapper/FriendLinkMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/mapper/ResMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/classes/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/CommonUtils-1.19.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/activation-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/activemq-all-5.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/c3p0-0.9.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/classmate-1.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/commons-beanutils-1.9.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/commons-codec-1.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/commons-collections-3.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/commons-io-2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/commons-lang3-3.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/commons-math3-3.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/commons-net-3.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/commons-pool2-2.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/fastjson-1.2.47.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/guava-18.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/hibernate-validator-5.2.4.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/httpclient-4.5.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/httpcore-4.4.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/httpmime-4.5.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/ikanalyzer-2012_u6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/jackson-annotations-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/jackson-core-2.9.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/jackson-core-asl-1.9.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/jackson-databind-2.9.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/jackson-mapper-asl-1.9.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/javaee-api-8.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/javax.mail-1.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/jboss-logging-3.2.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/jedis-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/jsqlparser-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/lucene-analyzers-common-4.7.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/lucene-core-4.7.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/lucene-queries-4.7.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/lucene-queryparser-4.7.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/lucene-sandbox-4.7.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/mail-1.4.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/mchange-commons-java-0.2.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/mybatis-3.4.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/mybatis-spring-1.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/mysql-connector-java-5.1.47.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/noggit-0.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/pagehelper-5.1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/slf4j-api-1.7.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/slf4j-log4j12-1.7.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/solr-solrj-7.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/spring-aop-5.1.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/spring-beans-5.1.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/spring-context-5.1.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/spring-context-support-5.1.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/spring-core-5.1.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/spring-data-commons-2.0.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/spring-data-keyvalue-2.0.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/spring-data-redis-2.0.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/spring-expression-5.1.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/spring-jcl-5.1.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/spring-jdbc-5.1.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/spring-jms-5.1.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/spring-ldap-core-2.3.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/spring-messaging-5.1.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/spring-oxm-5.1.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/spring-security-acl-5.1.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/spring-security-config-5.1.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/spring-security-core-5.1.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/spring-security-ldap-5.1.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/spring-security-taglibs-5.1.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/spring-security-web-5.1.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/spring-test-5.1.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/spring-tx-5.1.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/spring-web-5.1.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/spring-webmvc-5.1.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/stax2-api-3.1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/validation-api-1.1.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/woodstox-core-asl-4.4.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/xbean-spring-4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/lib/zookeeper-3.4.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/modify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/resource.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/WEB-INF/write.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/email.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/password.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/citySelect/css/select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/citySelect/js/pca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/citySelect/js/select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/css/about.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/css/animate.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/css/article.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/css/detail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/css/global.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/css/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/css/login/font.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/css/login/fonts/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/css/login/fonts/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/css/login/fonts/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/css/login/fonts/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/css/login/xadmin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/css/pageInfo/page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/css/prettify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/css/resource.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/css/timeline.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/images/Absolutely.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/images/Logo_100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/images/Logo_40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/images/aiwrap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/images/background_black.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/images/background_modify.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/images/close_eye.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/images/cover/201703051349045432.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/images/cover/201703051847567306.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/images/cover/201703142313157316.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/images/cover/201703152314519971.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/images/cover/201703162101115908.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/images/cover/201703181708141811.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/images/cover/201703181740098218.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/images/cover/201703181909057125.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/images/cover/201703181909057125a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/images/cover/cover.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/images/cover/cover_default.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/images/handshake.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/images/login_qq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/images/login_weixin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/images/messagewall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/images/open_eye.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/images/qiubixiong.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/images/qq_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/images/qzone_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/images/validationCode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/images/wechat_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/images/weibo_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/js/about.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/js/background/background.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/js/detail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/js/global.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/js/home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/js/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/js/prettify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/js/write.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/font-awesome/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/font-awesome/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/font-awesome/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/font-awesome/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/font-awesome/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/font-awesome/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/font-awesome/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/font-awesome/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/font-awesome/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/font-awesome/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/font-awesome/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/font-awesome/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/font-awesome/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/font-awesome/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/font-awesome/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/font-awesome/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/font-awesome/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/font-awesome/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/font-awesome/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/font-awesome/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/font-awesome/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/font-awesome/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/font-awesome/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/font-awesome/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/font-awesome/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/font-awesome/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/font-awesome/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/css/modules/laydate/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/css/modules/laydate/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/lay/dest/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/lay/lib/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/lay/modules/pagesize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/plug/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/wangEditor/release/fonts/w-e-icon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/wangEditor/release/wangEditor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/wangEditor/release/wangEditor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/wangEditor/release/wangEditor.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/wangEditor/release/wangEditor.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myBlog/static/wangEditor/release/wangEditor.min.js.map" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="myblog" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/ResMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/model/ResourceParent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+              <folding>
+                <element signature="e#271#272#0" expanded="true" />
+                <element signature="e#302#303#0" expanded="true" />
+                <element signature="e#351#352#0" expanded="true" />
+                <element signature="e#391#392#0" expanded="true" />
+                <element signature="e#428#429#0" expanded="true" />
+                <element signature="e#461#462#0" expanded="true" />
+                <element signature="e#513#514#0" expanded="true" />
+                <element signature="e#557#558#0" expanded="true" />
+                <element signature="e#613#614#0" expanded="true" />
+                <element signature="e#652#653#0" expanded="true" />
+                <element signature="e#729#730#0" expanded="true" />
+                <element signature="e#785#786#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/model/ResourceChild.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+              <folding>
+                <element signature="e#363#364#0" expanded="true" />
+                <element signature="e#393#394#0" expanded="true" />
+                <element signature="e#440#441#0" expanded="true" />
+                <element signature="e#478#479#0" expanded="true" />
+                <element signature="e#514#515#0" expanded="true" />
+                <element signature="e#546#547#0" expanded="true" />
+                <element signature="e#596#597#0" expanded="true" />
+                <element signature="e#638#639#0" expanded="true" />
+                <element signature="e#677#678#0" expanded="true" />
+                <element signature="e#712#713#0" expanded="true" />
+                <element signature="e#768#769#0" expanded="true" />
+                <element signature="e#816#817#0" expanded="true" />
+                <element signature="e#846#847#0" expanded="true" />
+                <element signature="e#872#873#0" expanded="true" />
+                <element signature="e#910#911#0" expanded="true" />
+                <element signature="e#940#941#0" expanded="true" />
+                <element signature="e#971#972#0" expanded="true" />
+                <element signature="e#998#999#0" expanded="true" />
+                <element signature="e#1038#1039#0" expanded="true" />
+                <element signature="e#1070#1071#0" expanded="true" />
+                <element signature="e#1105#1106#0" expanded="true" />
+                <element signature="e#1138#1139#0" expanded="true" />
+                <element signature="e#1188#1189#0" expanded="true" />
+                <element signature="e#1232#1233#0" expanded="true" />
+                <element signature="e#1270#1271#0" expanded="true" />
+                <element signature="e#1303#1304#0" expanded="true" />
+                <element signature="e#1356#1357#0" expanded="true" />
+                <element signature="e#1400#1401#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/dao/ResourceDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/service/impl/ResourceServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#619#620#0" expanded="true" />
+                <element signature="e#673#674#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/service/ResourceService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/controller/ResourceController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="42" column="43" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resource.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1938">
+              <caret line="102" column="45" selection-start-line="102" selection-start-column="45" selection-end-line="102" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ByteArrayInputStream</find>
+      <find>data</find>
+      <find>layer</find>
+      <find>msg</find>
+      <find>field</find>
+      <find>submit</find>
+      <find>captchaImg</find>
+      <find>link</find>
+      <find>admin</find>
+      <find>NickName</find>
+      <find>nickName</find>
+      <find>enable</find>
+      <find>categorys</find>
+      <find>resourceParents</find>
+    </findStrings>
+    <dirStrings>
+      <dir>E:\JavaWebProject\myblog\src\main\webapp</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/blog/controller/HomeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blog/model/Comment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blog/model/ChildComment.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/detail.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/article.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blog/controller/DetailController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blog/service/CommentService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blog/service/impl/CommentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blog/dao/CommentDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/CommentMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blog/controller/FriendLinkController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blog/service/FriendLinkService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blog/service/impl/FriendLinkServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blog/dao/FriendLinkDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/FriendLinkMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blog/model/AboutBlog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blog/model/AboutBlogVersion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blog/service/AboutVersionService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blog/service/impl/AboutVersionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/about.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blog/service/AboutService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blog/service/impl/AboutServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blog/service/AboutBlogService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blog/service/impl/AboutBlogServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blog/dao/AboutBlogDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/AboutBlogMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blog/controller/AboutController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blog/controller/ModifyController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/modify.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blog/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blog/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blog/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blog/controller/AdminController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resource.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blog/model/ResourceParent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blog/model/POSecondLevel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blog/model/ResourceChild.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blog/controller/ResourceController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blog/service/ResourceService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blog/service/impl/ResourceServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/write.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blog/service/ArticleService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blog/service/impl/ArticleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blog/dao/ArticleDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/ArticleMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blog/controller/WriteController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/ResMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blog/dao/ResourceDao.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1358" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.blog.common" />
+      <recent name="com.blog.mail" />
+      <recent name="com.blog.base" />
+      <recent name="com.blog.exceptions" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\JavaWebProject\myblog\src\main\webapp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\JavaWebProject\myblog\src\main\webapp\WEB-INF" />
+      <recent name="E:\JavaWebProject\myblog\src\main\webapp" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="Object" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="blog" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.23" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="myblog:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_myblog" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="13623" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="myblog:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="72ad1681-bd88-4756-b66a-d33f7f3b51ed" name="Default Changelist" comment="" />
+      <created>1561185431415</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561185431415</updated>
+      <workItem from="1561185436305" duration="13844000" />
+      <workItem from="1561210422110" duration="2433000" />
+      <workItem from="1561212997258" duration="2780000" />
+      <workItem from="1561268739516" duration="6833000" />
+      <workItem from="1561281427073" duration="24472000" />
+      <workItem from="1561339601203" duration="5345000" />
+      <workItem from="1561352451349" duration="32605000" />
+      <workItem from="1561436657420" duration="16335000" />
+      <workItem from="1561457774926" duration="14491000" />
+      <workItem from="1561473855858" duration="4879000" />
+      <workItem from="1561479151575" duration="1064000" />
+      <workItem from="1561515961173" duration="15192000" />
+      <workItem from="1561557636667" duration="2855000" />
+      <workItem from="1561560724031" duration="1731000" />
+      <workItem from="1561563807385" duration="1188000" />
+      <workItem from="1561609662301" duration="595000" />
+      <workItem from="1561629927289" duration="12452000" />
+      <workItem from="1561700256598" duration="3423000" />
+      <workItem from="1561709942034" duration="9465000" />
+      <workItem from="1561727645258" duration="468000" />
+      <workItem from="1561728128310" duration="34000" />
+      <workItem from="1561728275234" duration="4916000" />
+      <workItem from="1561777903586" duration="7929000" />
+      <workItem from="1561788988644" duration="29896000" />
+      <workItem from="1561898218275" duration="3558000" />
+      <workItem from="1561956963772" duration="26395000" />
+      <workItem from="1562046527350" duration="24220000" />
+      <workItem from="1562074470925" duration="276000" />
+      <workItem from="1562137981664" duration="7909000" />
+      <workItem from="1562158273712" duration="9003000" />
+      <workItem from="1562202129801" duration="3030000" />
+      <workItem from="1562241335907" duration="7481000" />
+      <workItem from="1562248968406" duration="6847000" />
+      <workItem from="1562257544447" duration="236000" />
+      <workItem from="1562257828079" duration="579000" />
+    </task>
+    <task id="LOCAL-00001" summary="First Commit!">
+      <created>1562256514357</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1562256514357</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="304759000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1358" y="-8" width="1616" height="876" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" sideWeight="0.5060241" side_tool="true" weight="0.21104388" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info id="Designer" order="5" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.4939759" visible="true" weight="0.23457584" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" order="0" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.49326146" />
+      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50075644" side_tool="true" weight="0.28477904" />
+      <window_info anchor="bottom" id="Messages" order="4" sideWeight="0.49924356" weight="0.3243607" />
+      <window_info anchor="bottom" id="Java Enterprise" order="5" weight="0.3289689" />
+      <window_info anchor="bottom" id="Database Changes" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.3289689" />
+      <window_info anchor="bottom" id="Message" order="9" />
+      <window_info anchor="bottom" id="Find" order="10" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="11" weight="0.2745626" />
+      <window_info anchor="bottom" id="Debug" order="12" weight="0.49918166" />
+      <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="15" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="JSF" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="CDI" order="6" />
+      <window_info anchor="right" id="Bean Validation" order="7" />
+      <window_info anchor="right" id="Maven" order="8" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="9" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="10" weight="0.24935065" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="11" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" sideWeight="0.5060241" side_tool="true" weight="0.21104388" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info id="Designer" order="5" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.4939759" visible="true" weight="0.15616967" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50075644" side_tool="true" weight="0.28477904" />
+      <window_info anchor="bottom" id="Messages" order="4" sideWeight="0.49924356" weight="0.32569557" />
+      <window_info anchor="bottom" id="Java Enterprise" order="5" weight="0.3289689" />
+      <window_info anchor="bottom" id="Database Changes" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.3289689" />
+      <window_info anchor="bottom" id="Message" order="9" />
+      <window_info anchor="bottom" id="Find" order="10" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="11" weight="0.4858681" />
+      <window_info anchor="bottom" id="Debug" order="12" weight="0.49918166" />
+      <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="15" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="JSF" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="CDI" order="6" />
+      <window_info anchor="right" id="Bean Validation" order="7" />
+      <window_info anchor="right" id="Maven" order="8" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="9" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="10" weight="0.24935065" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="11" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Commit!" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Commit!" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/blog/controller/SetPasswordController.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/blog/service/impl/LoginServiceImpl.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+        <watch expression="e" />
+        <watch expression="e" />
+        <watch expression="e" />
+        <watch expression="request" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1206">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
+          <folding>
+            <element signature="e#1643#1644#0" expanded="true" />
+            <element signature="e#1685#1686#0" expanded="true" />
+            <element signature="e#1719#1720#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/controller/FriendLinkController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/service/FriendLinkService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/service/impl/FriendLinkServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+          <folding>
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/dao/FriendLinkDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/FriendLinkMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/service/CommentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/service/impl/CommentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#744#745#0" expanded="true" />
+            <element signature="e#805#806#0" expanded="true" />
+            <element signature="e#854#855#0" expanded="true" />
+            <element signature="e#930#931#0" expanded="true" />
+            <element signature="e#989#990#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/model/Comment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/dao/CommentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="55" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/CommentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/model/Article.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/controller/DetailController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/model/AboutBlog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#747#748#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/model/AboutBlogVersion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+          <folding>
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#479#480#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#773#774#0" expanded="true" />
+            <element signature="e#811#812#0" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#899#900#0" expanded="true" />
+            <element signature="e#945#946#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/service/AboutVersionService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/service/impl/AboutVersionServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/about.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3519">
+          <caret line="331" column="7" selection-start-line="331" selection-start-column="7" selection-end-line="331" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/service/AboutService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/service/impl/AboutServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="25" column="59" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/service/impl/AboutBlogServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#699#700#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AboutBlogMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/service/AboutBlogService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/dao/AboutBlogDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/controller/AboutController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/controller/ModifyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1197">
+          <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/modify.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-59">
+          <caret line="51" column="46" lean-forward="true" selection-start-line="51" selection-start-column="46" selection-end-line="51" selection-end-column="46" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#li#5;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#li#5;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#header#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="417" column="7" selection-start-line="417" selection-start-column="7" selection-end-line="417" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="54" column="35" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#920#921#0" expanded="true" />
+            <element signature="e#967#968#0" expanded="true" />
+            <element signature="e#1022#1023#0" expanded="true" />
+            <element signature="e#1071#1072#0" expanded="true" />
+            <element signature="e#1128#1129#0" expanded="true" />
+            <element signature="e#1150#1151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="40" column="8" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="66" column="40" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/write.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="101" column="56" selection-start-line="101" selection-start-column="56" selection-end-line="101" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/service/ArticleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="35" column="8" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/service/impl/ArticleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="73" column="42" selection-start-line="73" selection-start-column="42" selection-end-line="73" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#607#608#0" expanded="true" />
+            <element signature="e#935#936#0" expanded="true" />
+            <element signature="e#994#995#0" expanded="true" />
+            <element signature="e#1207#1208#0" expanded="true" />
+            <element signature="e#1264#1265#0" expanded="true" />
+            <element signature="e#1329#1330#0" expanded="true" />
+            <element signature="e#1382#1383#0" expanded="true" />
+            <element signature="e#1449#1450#0" expanded="true" />
+            <element signature="e#1504#1505#0" expanded="true" />
+            <element signature="e#1566#1567#0" expanded="true" />
+            <element signature="e#1616#1617#0" expanded="true" />
+            <element signature="e#1680#1681#0" expanded="true" />
+            <element signature="e#1729#1730#0" expanded="true" />
+            <element signature="e#1790#1791#0" expanded="true" />
+            <element signature="e#1815#1816#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/dao/ArticleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/ArticleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="70" column="120" selection-start-line="70" selection-start-column="120" selection-end-line="70" selection-end-column="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/controller/WriteController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="821">
+          <caret line="100" column="19" selection-start-line="100" selection-start-column="19" selection-end-line="100" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/model/POSecondLevel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <folding>
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/ResMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/model/ResourceParent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding>
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
+            <element signature="e#729#730#0" expanded="true" />
+            <element signature="e#785#786#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/model/ResourceChild.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding>
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
+            <element signature="e#872#873#0" expanded="true" />
+            <element signature="e#910#911#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#971#972#0" expanded="true" />
+            <element signature="e#998#999#0" expanded="true" />
+            <element signature="e#1038#1039#0" expanded="true" />
+            <element signature="e#1070#1071#0" expanded="true" />
+            <element signature="e#1105#1106#0" expanded="true" />
+            <element signature="e#1138#1139#0" expanded="true" />
+            <element signature="e#1188#1189#0" expanded="true" />
+            <element signature="e#1232#1233#0" expanded="true" />
+            <element signature="e#1270#1271#0" expanded="true" />
+            <element signature="e#1303#1304#0" expanded="true" />
+            <element signature="e#1356#1357#0" expanded="true" />
+            <element signature="e#1400#1401#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/dao/ResourceDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/service/impl/ResourceServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/service/ResourceService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/controller/ResourceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="42" column="43" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resource.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1938">
+          <caret line="102" column="45" selection-start-line="102" selection-start-column="45" selection-end-line="102" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>myblog</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

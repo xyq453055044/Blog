@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.blog.dao.ArticleDao">
+
+
+    <select id="selectAllArticles" resultType="Article">
+        SELECT
+          a_id, id, title, content, category, personal, create_time, page_view, comment_num, recommend
+        FROM article ORDER BY create_time DESC
+    </select>
+
+
+    <select id="selectAllArticlesOrderByPageView" parameterType="Long" resultType="Article">
+        SELECT
+          a_id, id, title, content, category, personal, create_time, page_view, comment_num, recommend
+        FROM article ORDER BY page_view DESC
+    </select>
+
+    <select id="selectCountCategory" resultType="POCategory">
+        SELECT category, count(1) count FROM article GROUP BY category ORDER BY count DESC;
+    </select>
+
+
+    <select id="selectCountYearAndMonth" resultType="POTime">
+        SELECT
+          DATE_FORMAT(create_time, "%Y年%m月") yearAndMonth, count(1) count
+        FROM
+          article
+        GROUP BY yearAndMonth ORDER BY yearAndMonth DESC;
+    </select>
+
+    <select id="selectArticlesByCategory" parameterType="String" resultType="Article">
+        SELECT
+          a_id, id, title, content, category, personal, create_time, page_view, comment_num, recommend
+        FROM article WHERE category=#{category}
+    </select>
+
+    <select id="selectArticleByAId" resultType="Article" parameterType="Long">
+        SELECT
+          a_id, id, title, content, category, personal, create_time, page_view, comment_num, recommend
+        FROM article WHERE a_id=#{aId}
+    </select>
+
+
+    <update id="updateArticlePageView" parameterType="Long">
+        UPDATE article SET page_view = page_view + 1 WHERE a_id = #{aId}
+    </update>
+
+    <update id="updateArticleCommentNum" parameterType="Long">
+        UPDATE article SET comment_num = comment_num + 1 WHERE a_id = #{aId}
+    </update>
+
+    <delete id="deleteArticleByAId" parameterType="Long">
+        delete from article where a_id = #{aId}
+    </delete>
+
+    <update id="updateArticle" parameterType="Article">
+        UPDATE article SET title=#{title}, content=#{content}, category=#{category}, personal=#{personal},
+               create_time=#{createTime}, page_view = #{pageView}, comment_num=#{commentNum}, recommend=#{recommend}
+        WHERE
+               a_id = #{aId}
+    </update>
+
+    <insert id="insertArticle" parameterType="Article">
+        INSERT INTO
+        article (id, title, content, category, personal, create_time, page_view, comment_num, recommend)
+        VALUES
+        (#{id}, #{title}, #{content}, #{category}, #{personal}, #{createTime}, #{pageView}, #{commentNum}, #{recommend})
+    </insert>
+
+
+
+</mapper>
