@@ -31,4 +31,4 @@
 
 
 
-![]()
+![博客流程图](https://github.com/xyq453055044/Blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%B5%81%E7%A8%8B%E5%9B%BE.jpg)
