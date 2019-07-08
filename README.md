@@ -35,7 +35,7 @@
 
 ## 四、SpringMVC处理一个请求的流程
 
-![]()
+![SpringMVC请求流程](SpringMVC请求流程.png)
 
 ## 五、总结
 
