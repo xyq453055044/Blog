@@ -29,6 +29,11 @@ public class AboutController extends BaseController{
     @Autowired
     private AboutBlogService aboutBlogService;
 
+    /**
+     * 用Get方式返回about页面
+     * @param model model
+     * @return 返回about页面
+     */
     @RequestMapping("/about")
     public String about(Model model){
 

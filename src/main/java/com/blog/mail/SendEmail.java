@@ -13,14 +13,20 @@ import java.util.Properties;
  */
 public class SendEmail {
 
+    /**
+     * 发送邮件
+     * @param email 接收人的邮箱地址
+     * @param validateCode 验证码
+     * @param msg 发送的信息
+     */
     public static void sendEmailMessage(String email, String validateCode, String msg) {
         try {
-            /**
-             * 发件人使用发邮件的电子信箱服务器
-             * 发件人邮箱
-             */
+
+            // 发件人使用发邮件的电子信箱服务器
             String host = "smtp.163.com";
+            // 发件人邮箱
             String from = "xyqPython@163.com";
+            // 接收人的邮箱地址
             String to = email;
 
             // Get system properties
@@ -33,14 +39,13 @@ public class SendEmail {
             // 这样才能验证通过
             props.put("mail.smtp.auth", "true");
 
-            // 阿里云上25号端口被禁用，需设置465端口，添加下面两行代码 // 设置SSL端口
+            // 阿里云上25号端口被禁用，需设置465端口，添加下面两行代码
+            // 设置SSL端口
             props.put("mail.smtp.socketFactory.port", "465");
             props.put("mail.smtp.socketFactory.class", "javax.net.ssl.SSLSocketFactory");
 
-            /**
-             * 授权码
-             */
-            MyAuthenticator myauth = new MyAuthenticator(from, "kaixin1205");
+            // 添加授权码
+            MyAuthenticator myauth = new MyAuthenticator(from, "您的授权码");
             Session session = Session.getDefaultInstance(props, myauth);
 
             // Define message
