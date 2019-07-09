@@ -33,6 +33,11 @@
 
 ![博客流程图](https://github.com/xyq453055044/Blog/blob/master/%E5%8D%9A%E5%AE%A2%E6%B5%81%E7%A8%8B%E5%9B%BE.jpg)
 
+## 四、SpringMVC处理一个请求的流程
+
+![SpringMVC请求流程](SpringMVC请求流程.png)
+
+
 具体步骤：
 
 第一步：发起请求到中央调度器(DispatcherServlet)
@@ -56,12 +61,6 @@
 第十步：中央调度器进行视图渲染 （视图渲染将模型数据(在ModelAndView对象中)填充到request域）
 
 第十一步：中央调度器向用户响应结果
-
-
-
-## 四、SpringMVC处理一个请求的流程
-
-![SpringMVC请求流程](SpringMVC请求流程.png)
 
 ## 五、总结
 
