@@ -2,8 +2,6 @@
 个人博客
 ## 一、项目技术介绍
 
-​	博客站点：http://www.blogsyxl.cn/
-
 ​	layui网站：https://www.layui.com/demo/
 
 ​	本博客运用Java语言开发，适合初学者一起学习。
